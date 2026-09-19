@@ -229,7 +229,7 @@ Everything adjustable lives in `config.py`:
 | `SHOW_PLAYER_NAME` | `False` | Your in-game name |
 | `LANGUAGE` | `"auto"` | `auto` follows the game, or force a code |
 | `TEXT_OVERRIDES` | `{}` | Reword any single line |
-| `BUTTONS` | `None` | Up to two link buttons under the presence |
+| `BUTTONS` | a `Get this presence` link to this repository | Up to two link buttons under the presence, or `None` |
 | `TRACK_STATS` | `True` | Record play statistics |
 | `LOG_PATH` | `%LOCALAPPDATA%\OPP\Saved\Logs\OPP.log` | Where the game log lives |
 | `LOG_POLL_INTERVAL` | `1.0` | How quickly a phase change is picked up |

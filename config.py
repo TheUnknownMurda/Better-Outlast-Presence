@@ -24,10 +24,11 @@ DEFAULT_IMAGE = "murkoff"
 #   "state"   -> the second line, e.g. "Police Station - Standard"
 STATUS_DISPLAY = "name"
 
-# Up to two buttons under the presence, e.g.
-#   BUTTONS = [{"label": "Get this presence", "url": "https://github.com/you/repo"}]
-# Leave as None to show none.
-BUTTONS = None
+# Up to two buttons under the presence. Set to None to show none.
+BUTTONS = [
+    {"label": "Get this presence",
+     "url": "https://github.com/TheUnknownMurda/Better-Outlast-Presence"},
+]
 
 # --- What the presence shows -----------------------------------------------
 
